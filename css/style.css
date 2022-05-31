@@ -426,7 +426,7 @@ img {
 
 
 /* Places styles start */
-.places{
+.places {
   margin-bottom: 131px;
 }
 
@@ -438,11 +438,11 @@ img {
   margin-bottom: 36px;
 }
 
-.places__title{
+.places__title {
   margin-right: 15px;
 }
 
-.places__view-all{
+.places__view-all {
   font-size: 16px;
   color: #006DFE;
   text-decoration: none;
@@ -450,22 +450,23 @@ img {
   background: url(../img/svg/arrow-right-ico.svg) no-repeat right center;
 }
 
-.places__view-all:hover, .places__view-all:focus{
+.places__view-all:hover,
+.places__view-all:focus {
   opacity: .65;
 }
 
-.places__cards{
+.places__cards {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-gap: 10px;
 }
 
-.places__card{
+.places__card {
   position: relative;
   overflow: hidden;
 }
 
-.places__card::after{
+.places__card::after {
   display: block;
   content: '';
   width: 100%;
@@ -477,11 +478,11 @@ img {
   z-index: 2;
 }
 
-.places__card:hover .places__card-pic{
+.places__card:hover .places__card-pic {
   transform: scale(1.05);
 }
 
-.places__card-title{
+.places__card-title {
   font-size: 50px;
   line-height: 60px;
   color: #fff;
@@ -491,31 +492,31 @@ img {
   z-index: 3;
 }
 
-.places__card_size_lg{
+.places__card_size_lg {
   grid-column: span 3;
 }
 
-.places__card_size_sm{
+.places__card_size_sm {
   grid-column: span 2;
 }
 
-.places__card-pic{
+.places__card-pic {
   min-height: 100%;
   width: 100%;
   transition: .15s all;
 }
 
-.places__card-pic_size_lg{
+.places__card-pic_size_lg {
   height: 354px;
   object-fit: cover;
 }
 
-.places__card-pic_size_sm{
+.places__card-pic_size_sm {
   height: 283px;
   object-fit: cover;
 }
 
-.places__card-link{
+.places__card-link {
   position: absolute;
   top: 0;
   left: 0;
@@ -525,3 +526,54 @@ img {
 }
 
 /* Places styles end */
+
+
+
+/* Tours styles start */
+
+.tours {
+  margin-bottom: 139px;
+}
+
+.tours__tour {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 0 108px;
+  align-items: center;
+  margin-bottom: 77px;
+}
+
+.tour__info{
+  padding-left: 47px;
+}
+
+.tour__title {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 40px;
+  margin-bottom: 85px;
+}
+
+.tour__desc {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 58px;
+}
+
+.tour__more{
+  display: inline-block;
+  padding-right: 60px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #006DFE;
+  text-decoration: none;
+  background: url(../img/svg/arrow-right-ico.svg) no-repeat 95% center;
+  transition: .2s all;
+}
+
+.tour__more:hover, 
+.tour__more:focus{
+  background: url(../img/svg/arrow-right-ico.svg) no-repeat right center;
+}
+
+/* Tours styles end */
