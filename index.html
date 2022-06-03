@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Discover Amazing places in Japan</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style.min.css">
 </head>
 
 <body>
@@ -25,16 +25,16 @@
                 <nav class="header__nav">
                     <ul class="header__list">
                         <li class="header__item">
-                            <a href="#!" class="header__link">Articles</a>
+                            <a href="#articles" class="header__link js-scroll">Articles</a>
                         </li>
                         <li class="header__item">
-                            <a href="#!" class="header__link">Locations</a>
+                            <a href="#locations" class="header__link js-scroll">Locations</a>
                         </li>
                         <li class="header__item">
-                            <a href="#!" class="header__link">Videos</a>
+                            <a href="#videos" class="header__link js-scroll">Videos</a>
                         </li>
                         <li class="header__item">
-                            <a href="#!" class="header__link">Sign in</a>
+                            <a href="#sign-in" class="header__link js-scroll">Sign in</a>
                         </li>
                     </ul>
 
@@ -58,7 +58,7 @@
 
     <main class="main">
         <!-- Intro start -->
-        <section class="intro">
+        <section class="intro" id="sign-in">
             <div class="wrapper">
                 <h1 class="intro__title">
                     Discover Amazing places in Japan
@@ -152,46 +152,46 @@
 
                 <div class="places__cards">
 
-                    <figure class="places__card places__card_size_lg">
+                    <div class="places__card places__card_size_lg">
                         <img src="./img/mount-fuji.jpg" alt="Mount Fuji"
                             class="places__card-pic places__card-pic_size_lg">
-                        <figcaption class="places__card-title">
+                        <h3 class="places__card-title">
                             Mount Fuji
-                        </figcaption>
+                        </h3>
                         <a href="#!" class="places__card-link"></a>
-                    </figure>
+                    </div>
 
-                    <figure class="places__card places__card_size_lg">
+                    <div class="places__card places__card_size_lg">
                         <img src="./img/kyoto.jpg" alt="Kyoto" class="places__card-pic places__card-pic_size_lg">
-                        <figcaption class="places__card-title">
+                        <h3 class="places__card-title">
                             Kyoto
-                        </figcaption>
+                        </h3>
                         <a href="#!" class="places__card-link"></a>
-                    </figure>
+                    </div>
 
-                    <figure class="places__card places__card_size_sm">
+                    <div class="places__card places__card_size_sm">
                         <img src="./img/tokyo.jpg" alt="Tokyo" class="places__card-pic places__card-pic_size_sm">
-                        <figcaption class="places__card-title">
+                        <h3 class="places__card-title">
                             Tokyo
-                        </figcaption>
+                        </h3>
                         <a href="#!" class="places__card-link"></a>
-                    </figure>
+                    </div>
 
-                    <figure class="places__card places__card_size_sm">
+                    <div class="places__card places__card_size_sm">
                         <img src="./img/niigata.jpg" alt="Niigata" class="places__card-pic places__card-pic_size_sm">
-                        <figcaption class="places__card-title">
+                        <h3 class="places__card-title">
                             Niigata
-                        </figcaption>
+                        </h3>
                         <a href="#!" class="places__card-link"></a>
-                    </figure>
+                    </div>
 
-                    <figure class="places__card places__card_size_sm">
+                    <div class="places__card places__card_size_sm">
                         <img src="./img/sapporo.jpg" alt="Sapporo" class="places__card-pic places__card-pic_size_sm">
-                        <figcaption class="places__card-title">
+                        <h3 class="places__card-title">
                             Sapporo
-                        </figcaption>
+                        </h3>
                         <a href="#!" class="places__card-link"></a>
-                    </figure>
+                    </div>
 
                 </div>
             </div>
@@ -200,7 +200,7 @@
 
         <!-- Tours start -->
 
-        <div class="tours">
+        <div class="tours" id="articles">
             <div class="wrapper-full">
 
                 <div class="tours__tour tour">
@@ -239,7 +239,7 @@
         <!-- Tours end -->
 
         <!-- Top start -->
-        <section class="top">
+        <section class="top" id="locations">
             <div class="wrapper-full">
                 <h2 class="top__title section-title">Today top places to visit</h2>
 
@@ -403,10 +403,10 @@
 
         <!-- Videos start -->
 
-        <div class="videos">
+        <div class="videos" id="videos">
             <div class="videos__wrapper">
                 <div class="video__item"></div>
-                <iframe class="video__element" src="https://www.youtube.com/embed/URDXZSJZ2ME" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe class="video__element" src="https://www.youtube.com/embed/RB8G_UDKO7g" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>         
             </div>
         </div>
 
@@ -481,7 +481,7 @@
         </div>
     </footer>
 
-    <script src="./js/main.js"></script>
+    <script src="./js/main.min.js"></script>
 </body>
 
 </html>
