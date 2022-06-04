@@ -1,8 +1,6 @@
-# IDIGO ![ODIGO](./img/favicon/favicon.ico)
+# Idigo ![ODIGO](./img/favicon/favicon.ico)
 
 ## Сверстал адаптивный сайт для резюме
 
-- Шаблон для туристического сайта по Японии <a href="(https://kirilllagutin.github.io/TravelOdigo/)" target="_blank">Odigo</a>
+- Шаблон для туристического сайта по Японии [Idigo](https://kirilllagutin.github.io/TravelOdigo/){target="blank"}
 - Использовал HTML, CSS и немного JavaScript
-
-<a href="(https://kirilllagutin.github.io/TravelOdigo/)" target="_blank">Odigo</a>
