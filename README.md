@@ -1,4 +1,4 @@
-![ODIGO](./img/favicon/favicon.ico)
+# IDIGO ![ODIGO](./img/favicon/favicon.ico)
 
 ## Сверстал адаптивный сайт для резюме
 
