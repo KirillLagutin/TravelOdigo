@@ -3,3 +3,5 @@
 ## Сверстал адаптивный сайт для резюме [Odigo](https://kirilllagutin.github.io/TravelOdigo/)
 
 - Использовал HTML, CSS и немного JavaScript
+
+<a href="example.com" target="_blank">New Tab</a>
