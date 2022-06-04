@@ -4,4 +4,4 @@
 
 - Использовал HTML, CSS и немного JavaScript
 
-<a href="example.com" target="_blank">New Tab</a>
+<a href="google.com" target="_blank">New Tab</a>
